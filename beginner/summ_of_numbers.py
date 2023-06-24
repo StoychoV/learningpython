@@ -5,9 +5,9 @@ numbers = [2, 4, 5, 6, 8, 11, 13, 15]
 
 
 def calculate_average(list):
-	summed = sum(list)
+	sum_of_all_numbers = sum(list)
 	num_of_entries  = len(list)
-	result = summed // num_of_entries
+	result = sum_of_all_numbers // num_of_entries
 	print(result)
 
 calculate_average(numbers)
